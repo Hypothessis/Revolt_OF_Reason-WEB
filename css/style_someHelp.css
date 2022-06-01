@@ -1,4 +1,3 @@
-
 body
 {
    margin: 0 auto;
@@ -31,10 +30,7 @@ section.top-page
 /* page de bienvenue */
 .landing-page 
 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    justify-items: center;
+padding: 20px 60px;
 }
 
 .big-title
@@ -66,9 +62,6 @@ nav.nav li
    color: white;
    text-decoration: none;
 }
-
-/* services */
-
 .services
 {
    display: flex;
@@ -107,9 +100,6 @@ nav.nav li
     color :gray;
     transition: all 0.4s ease;
 }
-
-/* best sells */
-
 .section-title
 {
   font-size: 50px;
@@ -118,13 +108,8 @@ nav.nav li
     display: block;
     text-align: center;
 }
-
-
-.images {
-  display:inline-block;
-  padding: 5%;
-}
-.liens{
+.liens
+{
     position: relative;
     text-decoration: none;
     color: white;
@@ -146,20 +131,3 @@ nav.nav li
   {
     width: 100%;
   }
-
-.liensMails {
-    color: white;
-    text-align: center;
-}
-
-.sendLink {
-    text-decoration: none;
-    color: #ffffff;
-
-}
-
-.liensMails :hover
-{
-    color :gray;
-    transition: all 0.4s ease;
-}
