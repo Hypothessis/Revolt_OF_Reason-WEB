@@ -131,3 +131,11 @@ nav.nav li
   {
     width: 100%;
   }
+  .presentation
+{
+    text-align: justify;
+    color:whitesmoke;
+    margin-right: 41.5%;
+    margin-left: 35%;
+    position: absolute;
+}
