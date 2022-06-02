@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 body
 {
    margin: 0 auto;
+   font-family: 'Audiowide';
+
 }
 
 /* tete de page */
@@ -30,6 +34,8 @@ section.top-page
 /* page de bienvenue */
 .landing-page 
 {
+    display: flex;
+    justify-content: space-evenly;
 padding: 20px 60px;
 }
 
@@ -39,6 +45,19 @@ padding: 20px 60px;
    font-size: 200 px;
    text-align: center;
 }
+.big-titl0
+{
+   color: white;
+   font-size: 200 px;
+   text-align: left;
+}
+.big-titl
+{
+   color: white;
+   font-size: 200 px;
+   text-align: right;
+}
+
 
 .scroll-down
 {
@@ -135,7 +154,29 @@ nav.nav li
 {
     text-align: justify;
     color:whitesmoke;
+    width: 262px;
+    margin: auto;
+        /*margin-right: 65.5%;
+    margin-left: 11.75%;*/
+}
+.textContainer
+ {
+    display: block;
+    text-align: center;
+ }
+/*.presentatio
+{
+    text-align: justify;
+    color:whitesmoke;
     margin-right: 41.5%;
     margin-left: 35%;
     position: absolute;
 }
+.presentati
+{
+    text-align: justify;
+    color:whitesmoke;
+    margin-left: 65%;
+    margin-right: 5cm;
+    position: absolute;
+}*/
