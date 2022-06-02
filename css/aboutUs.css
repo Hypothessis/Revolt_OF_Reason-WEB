@@ -13,7 +13,7 @@ header.heday
 {
     display: flex;
     align-items: center;
-    background-color:#332c29;
+    background-color:#1e1d1d;
     border-radius: 30px;
 }
 
@@ -27,22 +27,44 @@ section.top-page
 {
      background: url('../Images/The_Back.jpg');
      background-size: cover;
-    height: 90vh;
+    height: 100vh;
     padding: 25px;
 }
 
 /* page de bienvenue */
 .landing-page 
 {
-   padding: 20px 60px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 60px;
 }
 
 .big-title
 {
    color: white;
-   font-size: 250 px;
+   font-size: 200 px;
    text-align: center;
 }
+.big-titl0
+{
+   color: white;
+   font-size: 200 px;
+   text-align: center
+}
+.big-titl
+{
+   color: white;
+   font-size: 200 px;
+   text-align: center;
+}
+
+.big-tit
+{
+   color: white;
+   font-size: 200 px;
+   text-align: center;
+}
+
 
 .scroll-down
 {
@@ -66,9 +88,6 @@ nav.nav li
    color: white;
    text-decoration: none;
 }
-
-/* services */
-
 .services
 {
    display: flex;
@@ -90,7 +109,7 @@ nav.nav li
 .delivery-icon
 {
     font-size: 50px;
-    color: #332c29;
+    color: #1e1d1d;
 }
 
 .buttons
@@ -107,18 +126,13 @@ nav.nav li
     color :gray;
     transition: all 0.4s ease;
 }
-
-
-/* best sells */
-
 .section-title
 {
   font-size: 50px;
   font-weight: 100;
   display: block;
-  text-align: center;
+ text-align: center;
 }
-
 .liens
 {
     position: relative;
@@ -126,8 +140,8 @@ nav.nav li
     color: white;
 }
 
-.liens:after 
-{
+.liens:after
+ {
     content: "";
     position: absolute;
     left:0;
@@ -137,6 +151,7 @@ nav.nav li
     background-color: whitesmoke;
     transition: width .3s ease-in-out;
   }
+
   .liens:hover:after 
   {
     width: 100%;
@@ -146,8 +161,11 @@ nav.nav li
 {
     text-align: justify;
     color:whitesmoke;
-    margin-right: 41.5%;
-    margin-left: 35%;
-    position: absolute;
+    width: 262px;
+    margin: auto;
 }
-
+.textContainer
+ {
+    display: block;
+    text-align: center;
+ }
