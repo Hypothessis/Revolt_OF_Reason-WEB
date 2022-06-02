@@ -13,7 +13,7 @@ header.heday
 {
     display: flex;
     align-items: center;
-    background-color:#332c29;
+    background-color:#1e1d1d;
     border-radius: 30px;
 }
 
@@ -90,7 +90,7 @@ nav.nav li
 .delivery-icon
 {
     font-size: 50px;
-    color: #332c29;
+    color: #1e1d1d;
 }
 
 .buttons
@@ -99,7 +99,7 @@ nav.nav li
     width: 200px;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: #1e1d1d;
 }
 
 .buttons:hover

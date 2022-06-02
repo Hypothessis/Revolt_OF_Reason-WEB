@@ -111,7 +111,7 @@ nav.nav li
     width: 200px;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: #1e1d1d;
 }
 
 .buttons:hover
@@ -121,8 +121,7 @@ nav.nav li
 }
 .section-title
 {
-  font-size: 50px;
-   font-family: 'Sigmar One';
+    font-size: 50px;
     font-weight: 100;
     display: block;
     text-align: center;
@@ -148,7 +147,7 @@ nav.nav li
 
   .liens:hover:after 
   {
-    width: 100%;
+    width: 100vw;
   }
   .presentation
 {
