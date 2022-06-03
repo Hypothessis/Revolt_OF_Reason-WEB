@@ -147,7 +147,7 @@ nav.nav li
 
   .liens:hover:after 
   {
-    width: 100vw;
+    width: 100%;
   }
   .presentation
 {
