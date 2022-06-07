@@ -4,9 +4,7 @@ body
 {
    margin: 0 auto;
    font-family: 'Audiowide';
-
 }
-
 
 /* tete de page */
 
@@ -28,7 +26,7 @@ section.top-page
 {
      background: url('../Images/The_Back.jpg');
      background-size: cover;
-    height: 90vh;
+    height: 100vh;
     padding: 25px;
 }
 
@@ -143,3 +141,146 @@ nav.nav li
   {
     width: 100%;
   }
+
+  .Imagezs
+  {
+      display: flex;
+      justify-content: space-evenly;
+
+  }
+.Card
+{ 
+    margin: 0 auto;
+    width: 240px;
+    height: 320px;
+    perspective: 1000px;
+    text-align: center;
+}
+
+.Card-inner
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.Card:hover .Card-inner
+{
+    transform: rotateY(180deg);
+}
+
+.Card-front, .Card-back
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8 px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Card-front
+{
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+.Card-front:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background: linear-gradient(0deg,#1e1d1d,transparent);
+}
+
+.Card-front .Card-content
+{
+    z-index: 1;
+    color: whitesmoke;
+}
+
+.Card-front .Card-content p
+{
+    color: wheat;
+}
+
+ .Card-back
+ {
+     transform: rotateY(180deg);
+     background:#544949 ;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .Card-back .card-image, .card-image2, .card-image3
+ {
+    width: 100px;
+    height: 120px;
+    margin: 0 auto;
+    border: solid 1px gray;
+    border-radius: 100%;
+    background-position: center center;
+ }
+
+ .Card-back .card-image {
+    background-image: url('../Images/PLayer.png');
+    background-size: 75px ;
+ }
+
+ .Card-back .card-image2 {
+    background-image: url('../Images/THE BOSSS.png');
+    background-size: 100px ;
+
+ }
+
+ .Card-back .card-image3 {
+    background-image: url('../Images/Mafieux.png');
+    background-size: 80px ;
+
+ }
+
+ .Card-back p{
+     margin-top: 12px;
+ }
+
+ .Card-back .card-icons a
+ {
+     font-size: 18px;
+     color: azure;
+     background: burlywood;
+     width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: opacity .2s;
+ }
+
+ .Card-back .card-icons a:hover
+ {
+     cursor: pointer;
+     opacity: 0.7;
+ }
+
+ .Card-front{
+     transition: opacity .6s;
+ }
+
+ .Card:hover .Card-front
+ {
+     opacity: 0;
+ }
